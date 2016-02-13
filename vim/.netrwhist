@@ -1,5 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/Users/nick/Code/SysdocV3/sysdoc/resources'
-let g:netrw_dirhist_2='/Users/nick/Code/SysdocV3/sysdoc/resources/assets'
-let g:netrw_dirhist_3='/Users/nick/Code/SysdocV3/sysdoc/resources/assets/js'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/Users/nick/.homestead'

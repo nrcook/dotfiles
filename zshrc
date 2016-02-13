@@ -82,3 +82,4 @@ export PATH=/usr/local/php5/bin:$PATH
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias lamp="cp ~/Code/lamp/'install.sh' . && cp ~/Code/lamp/Vagrantfile . && vagrant up"
+alias homestead='function __homestead() { (cd ~/Homestead && vagrant $*); unset -f __homestead; }; __homestead'
