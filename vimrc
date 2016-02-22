@@ -13,6 +13,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'posva/vim-vue'
 Plugin 'pangloss/vim-javascript'
 Plugin 'tpope/vim-commentary'
+Plugin 'w0ng/vim-hybrid'
+
 "
 " " The following are examples of different formats supported.
 " " Keep Plugin commands between vundle#begin/end.
@@ -94,10 +96,11 @@ augroup autosourcing
 augroup END
 
 "Theme
-set background=dark
+"set background=dark
+"colorscheme PaperColor
 set t_Co=256
-colorscheme PaperColor
-
+set background=dark
+colorscheme hybrid
 
 "Control P
 set runtimepath^=~/.vim/bundle/ctrlp.vim
