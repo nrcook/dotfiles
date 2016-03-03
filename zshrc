@@ -45,13 +45,13 @@ ZSH_THEME="materialshelldark"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git ruby golang gem history history-substring-search terminalapp brew nanoc)
+plugins=(git history history-substring-search terminalapp brew nanoc)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+export PATH="/usr/local/php5/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 PATH=~/.composer/vendor/bin:$PATH
 export PATH=/usr/local/php5/bin:$PATH
