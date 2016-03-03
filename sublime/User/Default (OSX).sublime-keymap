@@ -1,4 +1,6 @@
 [
 	{ "keys": ["command+1"], "command": "toggle_side_bar1" },
-	{"keys": ["command+down"], "command": "goto_definition"}
+	{"keys": ["command+down"], "command": "goto_definition"},
+	{ "keys": ["shift+super+f"], "command": "phpcs_fix_this_file", "args": {"tool": "Fixer"}},
+	{ "keys": ["shift+super+s"], "command": "phpcs_sniff_this_file" }
 ]
