@@ -1,0 +1,27 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"DashDoc",
+		"Fix Mac Path",
+		"Handlebars",
+		"HTML5",
+		"JSX",
+		"Laravel Blade Highlighter",
+		"LESS",
+		"Material Theme",
+		"Package Control",
+		"Package Reloader",
+		"PHP Companion",
+		"Phpcs",
+		"PhpNamespace",
+		"Pretty JSON",
+		"SideBarEnhancements",
+		"SimplePHPUnit",
+		"Vue Syntax Highlight"
+	]
+}

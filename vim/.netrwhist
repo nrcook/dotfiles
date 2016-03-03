@@ -1,2 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =0
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/nick/Code/listenpost'
+let g:netrw_dirhist_2='/Users/nick/Code/listenpost/app'
+let g:netrw_dirhist_3='/Users/nick/Code/listenpost/app/components'
+let g:netrw_dirhist_4='/Users/nick/Code/listenpost'
+let g:netrw_dirhist_5='/Users/nick/Code/listenpost/app/components'
+let g:netrw_dirhist_6='/Users/nick/Code/listenpost/app'
+let g:netrw_dirhist_7='/Users/nick/Code/listenpost/app/utils'

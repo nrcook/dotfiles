@@ -1,0 +1,4 @@
+[
+	{ "keys": ["command+1"], "command": "toggle_side_bar1" },
+	{"keys": ["command+down"], "command": "goto_definition"}
+]

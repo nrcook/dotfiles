@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+	var React = require('react');
+	var Router = require('react-router');
+	var request = require('superagent');
+
+	var ${1} = React.createClass({
+	    contextTypes: {
+	        router: React.PropTypes.func.isRequired
+	    },
+
+
+	    render: function() {
+	        var name = this.context.router.getCurrentParams();
+	        return(
+	            <div>
+	                <div className="space-top"></div>
+	                <h1>{name}</h1>
+	            </div>
+	        )
+	    }
+	});
+
+	export default ${1} ;
+
+]]></content>
+<tabTrigger>comp</tabTrigger>
+</snippet>

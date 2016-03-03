@@ -1,0 +1,39 @@
+{
+	 // PHP-CS-Fixer settings
+
+    // Fix the issues on save
+    "php_cs_fixer_on_save": false,
+
+    // Show the quick panel
+    "php_cs_fixer_show_quick_panel": false,
+
+    // Path to where you have the php-cs-fixer installed
+    "php_cs_fixer_executable_path": "/Users/nick/.composer/vendor/bin/php-cs-fixer",
+
+    // Additional arguments you can specify into the application
+    "php_cs_fixer_additional_args": {
+
+    },
+
+    // phpcbf settings
+
+    // Fix the issues on save
+    "phpcbf_on_save": false,
+
+    // Show the quick panel
+    "phpcbf_show_quick_panel": false,
+
+    // Path to where you have the phpcbf installed
+    "phpcbf_executable_path": "/usr/local/bin/phpcbf",
+
+    // Additional arguments you can specify into the application
+    //
+    // Example:
+    // {
+    //     "--level": "all"
+    // }
+    "phpcbf_additional_args": {
+        "--standard": "PSR2",
+        "-n": ""
+    },
+}

@@ -1,0 +1,15 @@
+{
+	"color_scheme": "Packages/material-theme/schemes/Material-Theme.tmTheme",
+	"command": "toggle_side_bar",
+	"font_face": "Source Code Pro Light",
+	"font_size": 15,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"keys":
+	[
+		"cmd+1"
+	],
+	"theme": "Material-Theme.sublime-theme"
+}
